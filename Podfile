@@ -6,7 +6,10 @@ target 'Split Sheetz' do
   use_frameworks!
   
   pod 'Firebase/Core'
-  
+  pod ‘Firebase/Database’
+  pod ‘Firebase/Auth’
+  pod ‘FirebaseUI/Database’
+
     # Pods for Split Sheetz
 
   target 'Split SheetzTests' do

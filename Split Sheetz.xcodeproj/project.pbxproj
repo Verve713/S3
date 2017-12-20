@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		17498E2196892355667BB235 /* Pods_Split_Sheetz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AEB48AFEE39F1583D4655 /* Pods_Split_Sheetz.framework */; };
+		1B185B2C1FD5586A0073DD60 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B185B2B1FD5586A0073DD60 /* ArtistTableViewCell.swift */; };
+		1B30C20C1FE6AC01002FD6D0 /* ArtistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B30C20B1FE6AC01002FD6D0 /* ArtistTableViewCell.xib */; };
+		1B7DFB681FCE1E0F0017BDB0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DFB671FCE1E0F0017BDB0 /* RootViewController.swift */; };
 		1BBD38781FC1BB5B0084A49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38771FC1BB5B0084A49E /* AppDelegate.swift */; };
 		1BBD387A1FC1BB5B0084A49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38791FC1BB5B0084A49E /* ViewController.swift */; };
 		1BBD387D1FC1BB5B0084A49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD387B1FC1BB5B0084A49E /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 		1BBD38A81FC1BBDE0084A49E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38A71FC1BBDE0084A49E /* Artist.swift */; };
 		1BBD38AA1FC269270084A49E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD38A91FC269270084A49E /* images */; };
 		1BBD38AC1FC29A630084A49E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BBD38AB1FC29A630084A49E /* GoogleService-Info.plist */; };
+		1BBD38AF1FC67FD60084A49E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38AE1FC67FD60084A49E /* LoginViewController.swift */; };
+		1BBD38B11FC680330084A49E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38B01FC680330084A49E /* RegisterViewController.swift */; };
+		1BBD38B41FC75CBB0084A49E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38B31FC75CBB0084A49E /* User.swift */; };
 		88B946EED18AED5F466EC887 /* Pods_Split_SheetzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D640191ED1927075CCE8EB27 /* Pods_Split_SheetzTests.framework */; };
 		9B0D460542A2E5C3DE872ECA /* Pods_Split_SheetzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E08C91F124F1674AD3D2A9A /* Pods_Split_SheetzUITests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B185B2B1FD5586A0073DD60 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		1B30C20B1FE6AC01002FD6D0 /* ArtistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistTableViewCell.xib; sourceTree = "<group>"; };
+		1B7DFB671FCE1E0F0017BDB0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1BBD38741FC1BB5B0084A49E /* Split Sheetz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Sheetz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BBD38771FC1BB5B0084A49E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BBD38791FC1BB5B0084A49E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +67,9 @@
 		1BBD38A71FC1BBDE0084A49E /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		1BBD38A91FC269270084A49E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		1BBD38AB1FC29A630084A49E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1BBD38AE1FC67FD60084A49E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1BBD38B01FC680330084A49E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1BBD38B31FC75CBB0084A49E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1C3AEB48AFEE39F1583D4655 /* Pods_Split_Sheetz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Split_Sheetz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E08C91F124F1674AD3D2A9A /* Pods_Split_SheetzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Split_SheetzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9152BB94E891E6A1D680BF /* Pods-Split SheetzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Split SheetzTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Split SheetzTests/Pods-Split SheetzTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,15 +135,21 @@
 			isa = PBXGroup;
 			children = (
 				1BBD38771FC1BB5B0084A49E /* AppDelegate.swift */,
+				1B185B2B1FD5586A0073DD60 /* ArtistTableViewCell.swift */,
 				1BBD38791FC1BB5B0084A49E /* ViewController.swift */,
-				1BBD387B1FC1BB5B0084A49E /* Main.storyboard */,
+				1BBD38AE1FC67FD60084A49E /* LoginViewController.swift */,
+				1BBD38B01FC680330084A49E /* RegisterViewController.swift */,
 				1BBD38A51FC1BBC70084A49E /* Song.swift */,
 				1BBD38A71FC1BBDE0084A49E /* Artist.swift */,
+				1BBD38B31FC75CBB0084A49E /* User.swift */,
 				1BBD387E1FC1BB5B0084A49E /* Assets.xcassets */,
+				1BBD387B1FC1BB5B0084A49E /* Main.storyboard */,
+				1B30C20B1FE6AC01002FD6D0 /* ArtistTableViewCell.xib */,
 				1BBD38801FC1BB5B0084A49E /* LaunchScreen.storyboard */,
 				1BBD38831FC1BB5B0084A49E /* Info.plist */,
 				1BBD38AB1FC29A630084A49E /* GoogleService-Info.plist */,
 				1BBD38A91FC269270084A49E /* images */,
+				1B7DFB671FCE1E0F0017BDB0 /* RootViewController.swift */,
 			);
 			path = "Split Sheetz";
 			sourceTree = "<group>";
@@ -293,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B30C20C1FE6AC01002FD6D0 /* ArtistTableViewCell.xib in Resources */,
 				1BBD38AA1FC269270084A49E /* images in Resources */,
 				1BBD38821FC1BB5B0084A49E /* LaunchScreen.storyboard in Resources */,
 				1BBD38AC1FC29A630084A49E /* GoogleService-Info.plist in Resources */,
@@ -439,12 +458,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Split Sheetz/Pods-Split Sheetz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,8 +499,13 @@
 			files = (
 				1BBD38A61FC1BBC70084A49E /* Song.swift in Sources */,
 				1BBD387A1FC1BB5B0084A49E /* ViewController.swift in Sources */,
+				1B185B2C1FD5586A0073DD60 /* ArtistTableViewCell.swift in Sources */,
 				1BBD38A81FC1BBDE0084A49E /* Artist.swift in Sources */,
+				1BBD38B11FC680330084A49E /* RegisterViewController.swift in Sources */,
+				1BBD38AF1FC67FD60084A49E /* LoginViewController.swift in Sources */,
 				1BBD38781FC1BB5B0084A49E /* AppDelegate.swift in Sources */,
+				1B7DFB681FCE1E0F0017BDB0 /* RootViewController.swift in Sources */,
+				1BBD38B41FC75CBB0084A49E /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

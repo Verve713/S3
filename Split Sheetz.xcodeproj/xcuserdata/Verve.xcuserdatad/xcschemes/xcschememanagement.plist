@@ -7,7 +7,25 @@
 		<key>Split Sheetz.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1BBD38731FC1BB5B0084A49E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1BBD38871FC1BB5B0084A49E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1BBD38921FC1BB5B0084A49E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -9,7 +9,10 @@
 import UIKit
 
 class Song: NSObject {
-    
+    var title = ""
+    var sample = false
+    var sampleArtist = ""
+    var sampleAlbum = ""
     var artists = [Artist]();
 }
 //artists(Artitst(Brand: "Brand", Color: "Color"))

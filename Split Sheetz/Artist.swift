@@ -17,16 +17,16 @@ class Artist: NSObject {
     var address: String = ""
     var role: String = "" //create type
     var publishingCompany: String = ""
-    var publishingOwnershipPerentage: Double = 0
+    var publisherOwnershipPerentage: Double = 0
     var performanceSociety: String = "" //create type
     var IPISS: String = ""
     var musicOwnershipPercentage: Double = 0
     var lyricsOwnershipPercentage: Double = 0
     var agreedUponName: String = ""
-    var agreedUponSignature: String = "" //change type
+    var eSignature: String = "" //change type
     var dateEffective: Date = Date()
     
-    init (legalName: String, artistName: String, labelName: String, phoneNumber: String, email: String, address: String, role: String, publishingCompany: String, publishingOwnershipPerentage: Double, performanceSociety: String, IPISS: String, musicOwnershipPercentage: Double, lyricsOwnershipPercentage: Double, agreedUponName: String, agreedUponSignature: String, dateEffective: Date) {
+    init (legalName: String, artistName: String, labelName: String, phoneNumber: String, email: String, address: String, role: String, publishingCompany: String, publishingOwnershipPerentage: Double, performanceSociety: String, IPISS: String, musicOwnershipPercentage: Double, lyricsOwnershipPercentage: Double, agreedUponName: String, eSignature: String, dateEffective: Date) {
         self.legalName = legalName
         self.artistName = artistName
         self.labelName = labelName
@@ -35,13 +35,13 @@ class Artist: NSObject {
         self.address = address
         self.role = role
         self.publishingCompany = publishingCompany
-        self.publishingOwnershipPerentage = publishingOwnershipPerentage
+        self.publisherOwnershipPerentage = publishingOwnershipPerentage
         self.performanceSociety = performanceSociety
         self.IPISS = IPISS
         self.musicOwnershipPercentage = musicOwnershipPercentage
         self.lyricsOwnershipPercentage = lyricsOwnershipPercentage
         self.agreedUponName = agreedUponName
-        self.agreedUponSignature = agreedUponSignature
+        self.eSignature = eSignature
         self.dateEffective = dateEffective
     }
 }

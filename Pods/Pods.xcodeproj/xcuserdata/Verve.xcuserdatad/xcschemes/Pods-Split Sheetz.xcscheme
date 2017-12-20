@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3595894D308C40C2AE58C615B6E4C77F"
+               BlueprintIdentifier = "01A35F2A02077522DBEF47EACA18BBED"
                BuildableName = "Pods_Split_Sheetz.framework"
                BlueprintName = "Pods-Split Sheetz"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3595894D308C40C2AE58C615B6E4C77F"
+            BlueprintIdentifier = "01A35F2A02077522DBEF47EACA18BBED"
             BuildableName = "Pods_Split_Sheetz.framework"
             BlueprintName = "Pods-Split Sheetz"
             ReferencedContainer = "container:Pods.xcodeproj">
