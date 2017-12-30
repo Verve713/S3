@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		17498E2196892355667BB235 /* Pods_Split_Sheetz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3AEB48AFEE39F1583D4655 /* Pods_Split_Sheetz.framework */; };
 		1B185B2C1FD5586A0073DD60 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B185B2B1FD5586A0073DD60 /* ArtistTableViewCell.swift */; };
+		1B2179251FF715FD005397B3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2179231FF715FD005397B3 /* iAd.framework */; };
+		1B2179261FF715FD005397B3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2179241FF715FD005397B3 /* AdSupport.framework */; };
+		1B2179271FF7160A005397B3 /* Pods_Split_SheetzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2179291FF7160A005397B3 /* Pods_Split_SheetzTests.framework */; };
+		1B2179281FF7160A005397B3 /* Pods_Split_SheetzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21792A1FF7160A005397B3 /* Pods_Split_SheetzUITests.framework */; };
+		1B21792D1FF71632005397B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21792B1FF71632005397B3 /* UIKit.framework */; };
+		1B21792E1FF71632005397B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21792C1FF71632005397B3 /* Foundation.framework */; };
 		1B30C20C1FE6AC01002FD6D0 /* ArtistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B30C20B1FE6AC01002FD6D0 /* ArtistTableViewCell.xib */; };
 		1B7DFB681FCE1E0F0017BDB0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7DFB671FCE1E0F0017BDB0 /* RootViewController.swift */; };
 		1BBD38781FC1BB5B0084A49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38771FC1BB5B0084A49E /* AppDelegate.swift */; };
@@ -25,8 +31,10 @@
 		1BBD38AF1FC67FD60084A49E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38AE1FC67FD60084A49E /* LoginViewController.swift */; };
 		1BBD38B11FC680330084A49E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38B01FC680330084A49E /* RegisterViewController.swift */; };
 		1BBD38B41FC75CBB0084A49E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD38B31FC75CBB0084A49E /* User.swift */; };
+		3A5BC4F26B5861A8FA20CA35 /* Pods_Split_SheetzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21792A1FF7160A005397B3 /* Pods_Split_SheetzUITests.framework */; };
 		88B946EED18AED5F466EC887 /* Pods_Split_SheetzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D640191ED1927075CCE8EB27 /* Pods_Split_SheetzTests.framework */; };
 		9B0D460542A2E5C3DE872ECA /* Pods_Split_SheetzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E08C91F124F1674AD3D2A9A /* Pods_Split_SheetzUITests.framework */; };
+		B70938F31D2E9EB77956386E /* Pods_Split_SheetzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2179291FF7160A005397B3 /* Pods_Split_SheetzTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,12 @@
 
 /* Begin PBXFileReference section */
 		1B185B2B1FD5586A0073DD60 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		1B2179231FF715FD005397B3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		1B2179241FF715FD005397B3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1B2179291FF7160A005397B3 /* Pods_Split_SheetzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Split_SheetzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B21792A1FF7160A005397B3 /* Pods_Split_SheetzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Split_SheetzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B21792B1FF71632005397B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B21792C1FF71632005397B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B30C20B1FE6AC01002FD6D0 /* ArtistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistTableViewCell.xib; sourceTree = "<group>"; };
 		1B7DFB671FCE1E0F0017BDB0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1BBD38741FC1BB5B0084A49E /* Split Sheetz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Sheetz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +100,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B21792D1FF71632005397B3 /* UIKit.framework in Frameworks */,
+				1B21792E1FF71632005397B3 /* Foundation.framework in Frameworks */,
+				1B2179271FF7160A005397B3 /* Pods_Split_SheetzTests.framework in Frameworks */,
+				1B2179281FF7160A005397B3 /* Pods_Split_SheetzUITests.framework in Frameworks */,
+				1B2179251FF715FD005397B3 /* iAd.framework in Frameworks */,
+				1B2179261FF715FD005397B3 /* AdSupport.framework in Frameworks */,
 				17498E2196892355667BB235 /* Pods_Split_Sheetz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88B946EED18AED5F466EC887 /* Pods_Split_SheetzTests.framework in Frameworks */,
+				B70938F31D2E9EB77956386E /* Pods_Split_SheetzTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B0D460542A2E5C3DE872ECA /* Pods_Split_SheetzUITests.framework in Frameworks */,
+				3A5BC4F26B5861A8FA20CA35 /* Pods_Split_SheetzUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +210,12 @@
 		ECA401D299CE2B418624D6B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B21792C1FF71632005397B3 /* Foundation.framework */,
+				1B21792B1FF71632005397B3 /* UIKit.framework */,
+				1B2179291FF7160A005397B3 /* Pods_Split_SheetzTests.framework */,
+				1B21792A1FF7160A005397B3 /* Pods_Split_SheetzUITests.framework */,
+				1B2179241FF715FD005397B3 /* AdSupport.framework */,
+				1B2179231FF715FD005397B3 /* iAd.framework */,
 				1C3AEB48AFEE39F1583D4655 /* Pods_Split_Sheetz.framework */,
 				D640191ED1927075CCE8EB27 /* Pods_Split_SheetzTests.framework */,
 				2E08C91F124F1674AD3D2A9A /* Pods_Split_SheetzUITests.framework */,
@@ -675,6 +703,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EW6ML5V45M;
 				INFOPLIST_FILE = "Split Sheetz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lrg.Split-Sheetz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -691,6 +720,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EW6ML5V45M;
 				INFOPLIST_FILE = "Split Sheetz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lrg.Split-Sheetz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -779,7 +809,7 @@
 				1BBD389B1FC1BB5B0084A49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1BBD389C1FC1BB5B0084A49E /* Build configuration list for PBXNativeTarget "Split Sheetz" */ = {
 			isa = XCConfigurationList;
@@ -788,7 +818,7 @@
 				1BBD389E1FC1BB5B0084A49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1BBD389F1FC1BB5B0084A49E /* Build configuration list for PBXNativeTarget "Split SheetzTests" */ = {
 			isa = XCConfigurationList;
@@ -797,7 +827,7 @@
 				1BBD38A11FC1BB5B0084A49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1BBD38A21FC1BB5B0084A49E /* Build configuration list for PBXNativeTarget "Split SheetzUITests" */ = {
 			isa = XCConfigurationList;
@@ -806,7 +836,7 @@
 				1BBD38A41FC1BB5B0084A49E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

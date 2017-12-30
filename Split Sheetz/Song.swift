@@ -9,6 +9,7 @@
 import UIKit
 
 class Song: NSObject {
+    var id = ""
     var title = ""
     var sample = false
     var sampleArtist = ""

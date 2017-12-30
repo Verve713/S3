@@ -9,6 +9,7 @@
 import UIKit
 
 class Artist: NSObject {
+    var ID : String = ""
     var legalName: String = ""
     var artistName: String = ""
     var labelName: String = ""
@@ -17,7 +18,7 @@ class Artist: NSObject {
     var address: String = ""
     var role: String = "" //create type
     var publishingCompany: String = ""
-    var publisherOwnershipPerentage: Double = 0
+    var publisherOwnershipPercentage: Double = 0
     var performanceSociety: String = "" //create type
     var IPISS: String = ""
     var musicOwnershipPercentage: Double = 0
@@ -26,7 +27,7 @@ class Artist: NSObject {
     var eSignature: String = "" //change type
     var dateEffective: Date = Date()
     
-    init (legalName: String, artistName: String, labelName: String, phoneNumber: String, email: String, address: String, role: String, publishingCompany: String, publishingOwnershipPerentage: Double, performanceSociety: String, IPISS: String, musicOwnershipPercentage: Double, lyricsOwnershipPercentage: Double, agreedUponName: String, eSignature: String, dateEffective: Date) {
+    init (legalName: String, artistName: String, labelName: String, phoneNumber: String, email: String, address: String, role: String, publishingCompany: String, publisherOwnershipPercentage: Double, performanceSociety: String, IPISS: String, musicOwnershipPercentage: Double, lyricsOwnershipPercentage: Double, agreedUponName: String, eSignature: String, dateEffective: Date) {
         self.legalName = legalName
         self.artistName = artistName
         self.labelName = labelName
@@ -35,7 +36,7 @@ class Artist: NSObject {
         self.address = address
         self.role = role
         self.publishingCompany = publishingCompany
-        self.publisherOwnershipPerentage = publishingOwnershipPerentage
+        self.publisherOwnershipPercentage = publisherOwnershipPercentage
         self.performanceSociety = performanceSociety
         self.IPISS = IPISS
         self.musicOwnershipPercentage = musicOwnershipPercentage

@@ -18,7 +18,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var FacebookLoginButton: UIButton!
     
-    let currentUserAuth = Auth.auth().currentUser!
+    let currentUserAuth = Auth.auth().currentUser
     let ref: DatabaseReference! = Database.database().reference()
     let currentUserInfo:User! = nil
     
